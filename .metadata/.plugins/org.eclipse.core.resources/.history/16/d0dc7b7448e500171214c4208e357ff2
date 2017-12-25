@@ -1,0 +1,10 @@
+package ar.com_glassfish_sample_jms_test;
+
+public class JMSTest {
+
+	@Test
+	public void jmsTest() {
+		
+	}
+	
+}

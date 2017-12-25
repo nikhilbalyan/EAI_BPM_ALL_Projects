@@ -1,0 +1,5 @@
+package com.spring.home.beans;
+
+public class Student {
+
+}

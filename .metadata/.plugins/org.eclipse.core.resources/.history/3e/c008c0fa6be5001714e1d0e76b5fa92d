@@ -1,0 +1,14 @@
+package com.spring.client.home;
+
+import org.springframework.web.client.RestTemplate;
+
+public class ContractController {
+	public static void main(String[] args) {
+		
+	
+	String str= "https://www.w3schools.com/xml/note.xml";
+	RestTemplate rst = new RestTemplate();
+	String temp = rst.getForObject(str, String.class);
+	System.out.println(temp);
+	}
+}

@@ -1,0 +1,6 @@
+com\spring\hibernate\mapping\UserDaoInterface.class
+com\hibernate\mapping\pojo\TeamLead.class
+com\spring\hibernate\mapping\SpringHibernateMain.class
+com\hibernate\mapping\pojo\CampusMind.class
+com\hibernate\mapping\pojo\Orchard.class
+com\spring\hibernate\mapping\UserDAOImpl.class

@@ -1,0 +1,6 @@
+package com.spring.home.beans;
+
+public class Orchard {
+	private int batchID;
+	
+}

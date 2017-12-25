@@ -1,0 +1,18 @@
+package com.spring.mvc.home.beans;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "orchard")
+public class ALLClass {
+	@Id
+	private int batchID;
+	private int campusMindMID;
+	private String campusMindName;
+	private String track;
+	private int leadMID;
+	private String leadName;
+
+}

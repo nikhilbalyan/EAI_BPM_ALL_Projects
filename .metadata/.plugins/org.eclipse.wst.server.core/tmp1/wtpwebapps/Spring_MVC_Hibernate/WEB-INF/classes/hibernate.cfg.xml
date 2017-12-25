@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD//EN" "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+
+<hibernate-configuration>
+	<session-factory>
+
+		<property name="hibernate.dialect">
+			org.hibernate.dialect.MySQLDialect
+		</property>
+
+		<property name="hibernate.connection.driver_class">
+			com.mysql.jdbc.Driver
+		</property>
+
+		<!-- Assume test is the database name -->
+
+		<property name="hibernate.connection.url">
+			jdbc:mysql://localhost/springmvc
+		</property>
+
+		<property name="hibernate.connection.username">
+			root
+		</property>
+
+		<property name="hibernate.connection.password">
+			Welcome123
+		</property>
+
+		<!-- echo all executed sql to stdout -->
+		<property name="show_sql">true</property>
+
+		<!-- Drop and re-create the database schema on startup -->
+		<!-- use update to update the existing data instead of writing the create -->
+		<property name="hbm2ddl.auto">update</property>
+
+		<!-- names of entity annotated class -->
+		<mapping class="com.spring.mvc.home.beans.CampusMind" />
+		<mapping class="com.spring.mvc.home.beans.Orchard" />
+		<mapping class="com.spring.mvc.home.beans.Lead" />
+		<mapping class="com.spring.mvc.home.beans.ALLClass" />
+
+	</session-factory>
+</hibernate-configuration>

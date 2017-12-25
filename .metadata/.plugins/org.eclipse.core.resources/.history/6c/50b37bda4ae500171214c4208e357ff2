@@ -1,0 +1,4 @@
+package ar.com_glassfish_sample_jms.async;
+
+public class AsyncReceiver implements MessageListener, ExceptionListener {
+}

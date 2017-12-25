@@ -1,0 +1,5 @@
+package com.spring.mvc.home.beans;
+
+public class ALLClass {
+
+}

@@ -1,0 +1,19 @@
+<xs:schema xmlns:tns="http://apache_cxf/" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://apache_cxf/" version="1.0">
+
+  <xs:element name="getUrName" type="tns:getUrName"/>
+
+  <xs:element name="getUrNameResponse" type="tns:getUrNameResponse"/>
+
+  <xs:complexType name="getUrName">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="getUrNameResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 3 elements from project &apos;rest_crud&apos;&#x0D;&#x0A;- Original project: &apos;rest_crud&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     main_rest_crud.GreetingController.java&#x0D;&#x0A;     main_rest_crud.RestMain.java&#x0D;&#x0A;     main_rest_crud.User.java" description="Delete elements" element1="/src&lt;main_rest_crud{RestMain.java" element2="/src&lt;main_rest_crud{GreetingController.java" element3="/src&lt;main_rest_crud{User.java" elements="3" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1512615376725" subPackages="false" version="1.0"/>
+</session>
