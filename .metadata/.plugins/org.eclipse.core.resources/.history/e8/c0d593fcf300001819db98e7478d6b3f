@@ -15,7 +15,6 @@ import javax.persistence.InheritanceType;
 		discriminatorType=DiscriminatorType.STRING
 )*/
 @Entity
-//@Inheritance(strategy=InheritanceType.TABLE_PER_CLASS)
 @Inheritance(strategy=InheritanceType.JOINED)
 public class Vehicle {
 	@Id @GeneratedValue(strategy = GenerationType.TABLE)
