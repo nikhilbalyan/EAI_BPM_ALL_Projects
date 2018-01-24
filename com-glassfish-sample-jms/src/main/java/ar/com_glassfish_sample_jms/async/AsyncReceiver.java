@@ -26,7 +26,7 @@ public class AsyncReceiver implements MessageListener, ExceptionListener {
 		Properties env = new Properties();
 		env.put(Context.INITIAL_CONTEXT_FACTORY, "org.apache.activemq.jndi.ActiveMQInitialContextFactory");
 		env.put(Context.PROVIDER_URL, "tcp://localhost:61616");
-		env.put("queue.queueSampleQueue", "MyNewQueue");
+		env.put("queue.queueSampleQueue", "MyNewQueuesample");
 
 		// get the initial context
 		InitialContext ctx = new InitialContext(env);

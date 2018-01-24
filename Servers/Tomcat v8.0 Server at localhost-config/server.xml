@@ -73,11 +73,16 @@
          style configuration. When using the APR/native implementation, the
          OpenSSL style configuration is required as described in the APR/native
          documentation -->
-    <!--
-    <Connector port="8443" protocol="org.apache.coyote.http11.Http11NioProtocol"
+    
+    <!-- <Connector port="8443" protocol="org.apache.coyote.http11.Http11NioProtocol"
                maxThreads="150" SSLEnabled="true" scheme="https" secure="true"
-               clientAuth="false" sslProtocol="TLS" />
-    -->
+               clientAuth="false" sslProtocol="TLS" /> -->
+               
+    <Connector SSLEnabled="true" acceptCount="100" clientAuth="false"
+    disableUploadTimeout="true" enableLookups="false" maxThreads="25"
+    port="8443" keystoreFile="/Users/M1043098/.keystore" keystorePass="welcome"
+    protocol="org.apache.coyote.http11.Http11NioProtocol" scheme="https"
+    secure="true" sslProtocol="TLS" />
 
     <!-- Define an AJP 1.3 Connector on port 8009 -->
     <Connector port="8016" protocol="AJP/1.3" redirectPort="8443"/>
@@ -124,7 +129,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="com-mayia" path="/com-mayia" reloadable="true" source="org.eclipse.jst.jee.server:com-mayia"/><Context docBase="Spring_MVC_Hibernate" path="/Spring_MVC_Hibernate" reloadable="true" source="org.eclipse.jst.jee.server:Spring_MVC_Hibernate"/></Host>
+      <Context docBase="com-mayia" path="/com-mayia" reloadable="true" source="org.eclipse.jst.jee.server:com-mayia"/><Context docBase="Spring_MVC_Hibernate" path="/Spring_MVC_Hibernate" reloadable="true" source="org.eclipse.jst.jee.server:Spring_MVC_Hibernate"/><Context docBase="apache-cxf-soap-web-service" path="/apache-cxf-soap-web-service" reloadable="true" source="org.eclipse.jst.jee.server:apache-cxf-soap-web-service"/><Context docBase="jojopojo" path="/jojopojo" reloadable="true" source="org.eclipse.jst.jee.server:jojopojo"/></Host>
     </Engine>
   </Service>
 </Server>

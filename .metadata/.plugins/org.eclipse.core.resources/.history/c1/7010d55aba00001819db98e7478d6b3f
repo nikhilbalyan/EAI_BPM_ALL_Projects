@@ -1,0 +1,7 @@
+package dto;
+
+public class TwoWheeler extends Vehicle {
+	private String steeringHandle;
+	
+	
+}

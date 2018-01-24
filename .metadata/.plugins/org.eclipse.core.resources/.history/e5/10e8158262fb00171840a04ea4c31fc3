@@ -1,0 +1,5 @@
+package com.jojo.pojo.jojopojo;
+
+public class SecurityFilter implements ContainerRequestFilter {
+
+}

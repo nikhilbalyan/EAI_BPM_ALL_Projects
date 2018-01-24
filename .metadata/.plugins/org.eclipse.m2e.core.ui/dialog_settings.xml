@@ -2,12 +2,10 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="git-sample-project"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="git.sample.project"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -59,6 +57,7 @@
 	</section>
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="authentication_application"/>
 			<item value="hibernate-crud-mapping-client"/>
 			<item value="SpringMVCHibernateLatest"/>
 			<item value="Spring_MVC_Hibernate"/>
@@ -72,6 +71,7 @@
 			<item value="SPRING_MVC_HIBERNATE"/>
 		</list>
 		<list key="artifactId">
+			<item value="authentication_application"/>
 			<item value="hibernate-crud-mapping-client"/>
 			<item value="SpringMVCHibernateLatest"/>
 			<item value="Spring_MVC_Hibernate"/>
@@ -114,6 +114,8 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\M1043098\workspaceneon\Servers\Tomcat v8.0 Server at localhost-config\web.xml"/>
+			<item value="C:\Users\M1043098\workspaceneon\authentication_application\pom.xml"/>
 			<item value="C:\Users\M1043098\workspaceneon\Spring_MVC_Hibernate"/>
 			<item value="C:\Users\M1043098\workspaceneon\jms-sample-description"/>
 			<item value="C:\Users\M1043098\workspaceneon\jms-sample-description\src\main\java\FirstClient.java"/>

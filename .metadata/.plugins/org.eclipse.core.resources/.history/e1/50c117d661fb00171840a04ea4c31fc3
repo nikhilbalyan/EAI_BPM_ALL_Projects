@@ -1,0 +1,6 @@
+package com.jojo.pojo.jojopojo;
+
+@Path("securedResource")
+public class SecuredResource {
+
+}

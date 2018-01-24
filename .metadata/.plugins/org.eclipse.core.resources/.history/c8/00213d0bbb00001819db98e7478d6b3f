@@ -1,0 +1,14 @@
+package hibernate;
+
+import dto.Vehicle;
+
+public class InheritanceMain {
+	public static void main(String[] args) {
+		Vehicle vehicle = new Vehicle();
+		vehicle.setVehicleId(1);
+		vehicle.setVehicleName("jojo");
+		
+		TwoWheeler twoWheeler = new TwoWheeler();
+		
+	}
+}

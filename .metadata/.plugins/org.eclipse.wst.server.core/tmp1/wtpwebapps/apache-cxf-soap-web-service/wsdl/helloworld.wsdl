@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions name="HelloWorldService" targetNamespace="http://apache_cxf/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://apache_cxf/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/">
+  <wsdl:types>
+    <schema xmlns="http://www.w3.org/2001/XMLSchema">
+  <import namespace="http://apache_cxf/" schemaLocation="helloworld_schema1.xsd"/>
+</schema>
+  </wsdl:types>
+  <wsdl:message name="getUrNameResponse">
+    <wsdl:part name="parameters" element="tns:getUrNameResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getUrName">
+    <wsdl:part name="parameters" element="tns:getUrName">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="HelloWorld">
+    <wsdl:operation name="getUrName">
+      <wsdl:input name="getUrName" message="tns:getUrName">
+    </wsdl:input>
+      <wsdl:output name="getUrNameResponse" message="tns:getUrNameResponse">
+    </wsdl:output>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="HelloWorldServiceSoapBinding" type="tns:HelloWorld">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="getUrName">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="getUrName">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getUrNameResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="HelloWorldService">
+    <wsdl:port name="HelloWorldPort" binding="tns:HelloWorldServiceSoapBinding">
+      <soap:address location="http://localhost:8075/apache-cxf-soap-web-service/services"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

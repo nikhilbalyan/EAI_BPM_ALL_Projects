@@ -1,0 +1,11 @@
+package dto;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
+public class Vehicle {
+	@Id
+	private int vehicleId;
+	private String vehicleName;
+}

@@ -1,0 +1,23 @@
+package hibernate;
+
+import dto.FourWheeler;
+import dto.TwoWheeler;
+import dto.Vehicle;
+
+public class InheritanceMain {
+	public static void main(String[] args) {
+		Vehicle vehicle = new Vehicle();
+		vehicle.setVehicleName("car");
+		
+		TwoWheeler twoWheeler = new TwoWheeler();
+		twoWheeler.setSteeringHandle("bike steering handle");
+		twoWheeler.setVehicleName("bike");
+		
+		
+		FourWheeler fourWheeler = new FourWheeler();
+		fourWheeler.setSteeringWheel("car steering wheel");
+		fourWheeler.setVehicleName("Porsche Steering wheel");
+		
+		
+	}
+}

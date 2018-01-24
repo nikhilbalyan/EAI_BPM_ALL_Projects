@@ -1,3 +1,4 @@
 #Tomcat publish data
-#Sun Dec 24 19:25:01 IST 2017
+#Wed Jan 17 17:20:12 IST 2018
+org.eclipse.jst.jee.server\:/binary\:D\:\\EAI_BPM_software\\apache-cxf-3.0.16\\apache-cxf-3.0.16\\lib\\spring-web-3.2.17.RELEASE.jar=WEB-INF/lib/spring-web-3.2.17.RELEASE.jar
 org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\M1043098\\.m2\\repository\\org\\springframework\\spring-web\\4.3.9.RELEASE\\spring-web-4.3.9.RELEASE.jar=WEB-INF/lib/spring-web-4.3.9.RELEASE.jar

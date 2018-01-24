@@ -1,0 +1,38 @@
+package hibernate;
+
+import org.hibernate.HibernateException;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+import dto.FourWheeler;
+import dto.TwoWheeler;
+import dto.Vehicle;
+
+public class InheritanceMain {
+	public static void main(String[] args) {
+		Vehicle vehicle = new Vehicle();
+		vehicle.setVehicleName("car");
+		
+		TwoWheeler twoWheeler = new TwoWheeler();
+		twoWheeler.setSteeringHandle("bike steering handle");
+		twoWheeler.setVehicleName("bike");
+		
+		
+		FourWheeler fourWheeler = new FourWheeler();
+		fourWheeler.setSteeringWheel("car steering wheel");
+		fourWheeler.setVehicleName("Porsche Steering wheel");
+		
+		try {
+			String hibernateFilePath = "hibernate.cfg.xml";
+
+			SessionFactory sessionFactory = new Configuration().configure(hibernateFilePath).buildSessionFactory();
+			Session session = sessionFactory.openSession();
+			session.beginTransaction();
+		} catch (HibernateException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+
+		
+	}
+}

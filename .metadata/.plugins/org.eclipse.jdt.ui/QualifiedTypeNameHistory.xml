@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="javax.jws.WebService"/>
-<fullyQualifiedTypeName name="javax.xml.ws.Endpoint"/>
-<fullyQualifiedTypeName name="org.hibernate.SessionFactory"/>
-<fullyQualifiedTypeName name="org.hibernate.Session"/>
 <fullyQualifiedTypeName name="org.hibernate.annotations.Entity"/>
 <fullyQualifiedTypeName name="com.spring.hibernate.SpringHibernateMain"/>
 <fullyQualifiedTypeName name="main_rest_crud.User"/>
 <fullyQualifiedTypeName name="com.spring.hibernate.UserDAOImpl"/>
 <fullyQualifiedTypeName name="javax.ws.rs.Path"/>
-<fullyQualifiedTypeName name="javax.ws.rs.core.MediaType"/>
 <fullyQualifiedTypeName name="javax.websocket.server.PathParam"/>
 <fullyQualifiedTypeName name="javax.ws.rs.PathParam"/>
 <fullyQualifiedTypeName name="javax.persistence.GenerationType"/>
@@ -47,17 +42,22 @@
 <fullyQualifiedTypeName name="org.junit.Assert"/>
 <fullyQualifiedTypeName name="org.springframework.http.MediaType"/>
 <fullyQualifiedTypeName name="com.mysql.fabric.Response"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="javax.xml.ws.Response"/>
 <fullyQualifiedTypeName name="javax.naming.Context"/>
 <fullyQualifiedTypeName name="javax.jms.Message"/>
 <fullyQualifiedTypeName name="java.beans.ExceptionListener"/>
 <fullyQualifiedTypeName name="java.util.Queue"/>
 <fullyQualifiedTypeName name="java.util.Properties"/>
-<fullyQualifiedTypeName name="javax.ws.rs.core.Response"/>
 <fullyQualifiedTypeName name="java.io.ByteArrayOutputStream"/>
 <fullyQualifiedTypeName name="java.io.PrintStream"/>
 <fullyQualifiedTypeName name="org.junit.Before"/>
 <fullyQualifiedTypeName name="ar.com_glassfish_sample_jms.async.Sender"/>
 <fullyQualifiedTypeName name="ar.com_glassfish_sample_jms.latest.Receiver"/>
+<fullyQualifiedTypeName name="javax.ws.rs.core.MediaType"/>
+<fullyQualifiedTypeName name="javax.ws.rs.container.ContainerRequestFilter"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="org.glassfish.jersey.internal.util.Base64"/>
+<fullyQualifiedTypeName name="java.util.StringTokenizer"/>
+<fullyQualifiedTypeName name="javax.ws.rs.core.Response"/>
+<fullyQualifiedTypeName name="javax.ws.rs.core.Response.Status"/>
 </qualifiedTypeNameHistroy>

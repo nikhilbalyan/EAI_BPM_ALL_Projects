@@ -1,8 +1,0 @@
-package com.spring.home.beans;
-
-public class CampusMind {
-	private int campusMindMID;
-	private String campusMindName;
-	private int 
-	
-}

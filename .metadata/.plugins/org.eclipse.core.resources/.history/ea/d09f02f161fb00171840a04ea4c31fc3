@@ -1,0 +1,10 @@
+package com.jojo.pojo.jojopojo;
+
+import javax.ws.rs.Path;
+
+@Path("securedResource")
+public class SecuredResource {
+
+	@GET
+	
+}

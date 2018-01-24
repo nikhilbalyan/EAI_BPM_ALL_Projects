@@ -1,0 +1,10 @@
+127.0.0.1 - - [01/Jan/2018:19:22:25 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [01/Jan/2018:19:22:26 +0530] "GET /apache-cxf-soap-web-service/WEB-INF/classes/apache_cxf/HelloWorld.java HTTP/1.1" 404 992
+0:0:0:0:0:0:0:1 - - [01/Jan/2018:19:28:29 +0530] "GET /apache-cxf-soap-web-service/services/HelloWorldPort?wsdl HTTP/1.1" 200 2050
+0:0:0:0:0:0:0:1 - - [01/Jan/2018:19:29:03 +0530] "GET /apache-cxf-soap-web-service/services/HelloWorldPort?wsdl HTTP/1.1" 200 2050
+0:0:0:0:0:0:0:1 - - [01/Jan/2018:19:29:09 +0530] "GET /apache-cxf-soap-web-service/services/HelloWorldPort?wsdl HTTP/1.1" 200 2050
+0:0:0:0:0:0:0:1 - - [01/Jan/2018:19:38:36 +0530] "GET /apache-cxf-soap-web-service/services/HelloWorldPort?wsdl HTTP/1.1" 200 2050
+0:0:0:0:0:0:0:1 - - [01/Jan/2018:19:38:36 +0530] "GET /favicon.ico HTTP/1.1" 404 1016
+0:0:0:0:0:0:0:1 - - [01/Jan/2018:19:42:49 +0530] "GET /apache-cxf-soap-web-service/services/HelloWorldPort?xsd=helloworld_schema1.xsd HTTP/1.1" 200 639
+127.0.0.1 - - [01/Jan/2018:19:45:55 +0530] "POST /apache-cxf-soap-web-service/services/HelloWorldPort HTTP/1.1" 200 257
+127.0.0.1 - - [01/Jan/2018:19:46:04 +0530] "POST /apache-cxf-soap-web-service/services/HelloWorldPort HTTP/1.1" 200 257

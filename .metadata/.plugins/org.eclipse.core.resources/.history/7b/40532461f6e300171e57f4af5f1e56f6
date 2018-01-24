@@ -1,8 +1,0 @@
-package com.spring.home.beans;
-
-public class Lead {
-	private int batchID;
-	private int leadMID;
-	private int leadName;
-	private String track;
-}

@@ -1,0 +1,7 @@
+package dto;
+
+@Entity
+public class Vehicle {
+	@Id
+	private int vehicleId;
+}

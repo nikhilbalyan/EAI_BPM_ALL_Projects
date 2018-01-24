@@ -1,0 +1,6 @@
+projectKey=JavaProject
+serverUrl=http://localhost:9111
+serverVersion=6.7.0.33306
+dashboardUrl=http://localhost:9111/dashboard/index/JavaProject
+ceTaskId=AWEKl9oncEAuPg7M-_oX
+ceTaskUrl=http://localhost:9111/api/ce/task?id=AWEKl9oncEAuPg7M-_oX
