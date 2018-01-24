@@ -1,10 +1,11 @@
 package com.hibernate.pojo;
 
-import javax.persistence.DiscriminatorValue;
 import javax.persistence.Entity;
 
+
+//discriminator need only for singletable mapping
+//@DiscriminatorValue("car")
 @Entity
-@DiscriminatorValue("car")
 public class FourWheeler extends Vehicle {
 	private String steeringWheel;
 
